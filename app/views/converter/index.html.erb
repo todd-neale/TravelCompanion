@@ -10,7 +10,7 @@
           <p><small>Updated on: <%= @updated_on %></small></p>
         </div>
         <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
-          ⚙️
+          <i class="fa-solid fa-gear"></i>
         </button>
       </div>
       <%= simple_form_for @user, html: { class: 'form-inline' } do |f| %>
@@ -42,7 +42,7 @@
           <button class="btn btn-warning ml-2 w-100 form-button" data-action="click->form#doTheThing click->form#shakeItUp">CONVERT</button>
         </div>
         <div class="col-2">
-          <button data-action="click->form#flipItUp" class="btn btn-info w-100">↕</button>
+          <button data-action="click->form#flipItUp" class="btn btn-info w-100"><i class="fa-solid fa-arrows-rotate"></i></button>
         </div>
       </div>
     </div>

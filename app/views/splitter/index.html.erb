@@ -1,7 +1,27 @@
-<div class="container">
-  <div class="row">
-        <div class="col-md-6 text-center">
-            <h1>Coming Soon</h1>
+<div class="container" data-controller="form">
+  <div class="row text-center text-light title">
+    <h1>Bill Splitter</h1>
+  </div>
+  <div class="row justify-content-center mt-3">
+    <div class="col-sm-6">
+      <div class="d-flex justify-content-end align-items-center">
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          ⚙️
+        </button>
+      </div>
+      <%= simple_form_for @user, html: { class: 'form-inline mt-3' } do |f| %>
+        <!-- input for the total amount-->
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="from_symbol"></span>
+          <input type="number" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)">
         </div>
+        <!-- input for the number of people to split the bill -->
+        <!-- input for how to split the bill -->
+        <!-- equally or unequally -->
+        <!-- if unequally, launch a modal to split the bill by amount -->
+      <% end %>
     </div>
+  </div>
 </div>
+
+<%= render 'converter/partials/modal', user: @user %>
