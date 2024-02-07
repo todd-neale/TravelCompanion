@@ -6,6 +6,9 @@ Rails.application.routes.draw do
   # root "articles#index"
   root "converter#index"
 
+  resources :converter, only: [:index]
+  resources :splitter, only: [:index]
+
   namespace :api do
     get 'get_data', to: 'currency#get_data'
   end
