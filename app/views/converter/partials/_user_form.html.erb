@@ -1,0 +1,5 @@
+<%= simple_form_for user, html: { class: 'form-inline' } do |f| %>
+  <%= f.input :currency_from, collection: currencies, label: 'Default Currency From', input_html: { class: 'form-control mb-2' } %>
+  <%= f.input :currency_to, collection: currencies, label: 'Default Currency To', input_html: { class: 'form-control mb-4' } %>
+  <%= f.button :submit, 'Update Defaults', class: 'btn btn-primary form-button' %>
+<% end %>

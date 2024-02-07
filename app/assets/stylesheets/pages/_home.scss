@@ -1,0 +1,29 @@
+// Specific CSS for your home-page
+
+body {
+  background-color: $blue !important;
+  font-family: $body-font !important;
+  padding-top: 50px;
+  color: whitesmoke !important;
+}
+
+h1, {
+  font-family: $logo-font !important;
+  font-size: 3em !important;
+}
+
+h2, form, .form-button {
+  font-family: $headers-font !important;
+  font-weight: 1000;
+  font-style: italic;
+}
+
+p {
+  font-family: $headers-font !important;
+  font-weight: 1000;
+  font-style: italic;
+  font-size: 0.6rem;
+  color: whitesmoke;
+  margin-bottom: 0 !important;
+  opacity: 0.85;
+}
