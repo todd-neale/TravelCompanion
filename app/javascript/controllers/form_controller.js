@@ -30,7 +30,7 @@ export default class extends Controller {
         this.convertCurrency();
         this.renderResultToReview();
         this.renderSymbolToTheView();
-        // this.renderFlagToTheView();
+        this.renderFlagToTheView();
     }
 
     flipItUp() {
@@ -133,39 +133,46 @@ export default class extends Controller {
             throw error; // You can handle the error accordingly or remove this line if you want to suppress errors.
         }
     }
-    //
-    // async getFlag(isoCode) {
-    //     try {
-    //         const result = await this.getSymbolData();
-    //
-    //         // Check if result is an array
-    //         if (Array.isArray(result)) {
-    //             const currency = result.find(curr => curr.abbreviation === isoCode);
-    //
-    //             // Check if currency is found
-    //             if (currency) {
-    //                 return currency.flag;
-    //             } else {
-    //                 console.error(`Currency not found for ISO code: ${isoCode}`);
-    //                 return null; // or handle the absence of currency symbol accordingly
-    //             }
-    //         } else {
-    //             console.error('Invalid or empty result from getFlagData');
-    //             return null; // or handle the absence of currency symbols accordingly
-    //         }
-    //     } catch (error) {
-    //         console.error('Error fetching or processing data:', error);
-    //         throw error; // You can handle the error accordingly or remove this line if you want to suppress errors.
-    //     }
-    // }
-    //
-    // async renderFlagToTheView() {
-    //     const from = document.querySelector("#user_currency_from").value;
-    //     const to = document.querySelector("#user_currency_to").value;
-    //
-    //     const flag = await this.getFlag(from);
-    //     const toFlag = await this.getFlag(to);
-    // }
+
+    async getFlag(isoCode) {
+        try {
+            const result = await this.getSymbolData();
+
+            // Check if result is an array
+            if (Array.isArray(result)) {
+                const currency = result.find(curr => curr.abbreviation === isoCode);
+
+                // Check if currency is found
+                if (currency) {
+                    return currency.flag;
+                } else {
+                    console.error(`Currency not found for ISO code: ${isoCode}`);
+                    return null; // or handle the absence of currency symbol accordingly
+                }
+            } else {
+                console.error('Invalid or empty result from getFlagData');
+                return null; // or handle the absence of currency symbols accordingly
+            }
+        } catch (error) {
+            console.error('Error fetching or processing data:', error);
+            throw error; // You can handle the error accordingly or remove this line if you want to suppress errors.
+        }
+    }
+
+    async renderFlagToTheView() {
+        const from = document.querySelector("#user_currency_from").value;
+        const to = document.querySelector("#user_currency_to").value;
+
+        const flag = await this.getFlag(from);
+        const toFlag = await this.getFlag(to);
+
+        console.log(flag)
+
+        // render the css flag as the background of the div
+
+        document.querySelector("#fromflag").src = flag;
+        document.querySelector("#toflag").src = toFlag;
+    }
 
     shakeItUp() {
         const h1Element = document.querySelector('.title');
