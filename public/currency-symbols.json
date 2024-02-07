@@ -1,0 +1,791 @@
+[
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f1.svg",
+    "country": "Albania",
+    "currency": "Albania Lek",
+    "abbreviation": "ALL",
+    "symbol": "Lek"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1eb.svg",
+    "country": "Afghanistan",
+    "currency": "Afghanistan Afghani",
+    "abbreviation": "AFN",
+    "symbol": "؋"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1f7.svg",
+    "country": "Argentina",
+    "currency": "Argentina Peso",
+    "abbreviation": "ARS",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fc.svg",
+    "country": "Aruba",
+    "currency": "Aruba Guilder",
+    "abbreviation": "AWG",
+    "symbol": "ƒ"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1fa.svg",
+    "country": "Australia",
+    "currency": "Australia Dollar",
+    "abbreviation": "AUD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e6-1f1ff.svg",
+    "country": "Azerbaijan",
+    "currency": "Azerbaijan New Manat",
+    "abbreviation": "AZN",
+    "symbol": "ман"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f8.svg",
+    "country": "Bahamas",
+    "currency": "Bahamas Dollar",
+    "abbreviation": "BSD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1e7.svg",
+    "country": "Bahrain",
+    "currency": "Barbados Dollar",
+    "abbreviation": "BBD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1fe.svg",
+    "country": "Belarus",
+    "currency": "Belarus Ruble",
+    "abbreviation": "BYR",
+    "symbol": "p."
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ff.svg",
+    "country": "Belize",
+    "currency": "Belize Dollar",
+    "abbreviation": "BZD",
+    "symbol": "BZ$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f2.svg",
+    "country": "Bermuda",
+    "currency": "Bermuda Dollar",
+    "abbreviation": "BMD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f4.svg",
+    "country": "Bolivia",
+    "currency": "Bolivia Boliviano",
+    "abbreviation": "BOB",
+    "symbol": "$b"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1e6.svg",
+    "country": "Bosnia and Herzegovina",
+    "currency": "Bosnia and Herzegovina Convertible Marka",
+    "abbreviation": "BAM",
+    "symbol": "KM"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1fc.svg",
+    "country": "Botswana",
+    "currency": "Botswana Pula",
+    "abbreviation": "BWP",
+    "symbol": "P"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1ec.svg",
+    "country": "Bulgaria",
+    "currency": "Bulgaria Lev",
+    "abbreviation": "BGN",
+    "symbol": "лв"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f7.svg",
+    "country": "Brazil",
+    "currency": "Brazil Real",
+    "abbreviation": "BRL",
+    "symbol": "R$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f3.svg",
+    "country": "Brunei",
+    "currency": "Brunei Darussalam Dollar",
+    "abbreviation": "BND",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ed.svg",
+    "country": "Cambodia",
+    "currency": "Cambodia Riel",
+    "abbreviation": "KHR",
+    "symbol": "៛"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1e6.svg",
+    "country": "Canada",
+    "currency": "Canada Dollar",
+    "abbreviation": "CAD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1fe.svg",
+    "country": "Cayman Islands",
+    "currency": "Cayman Islands Dollar",
+    "abbreviation": "KYD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f1.svg",
+    "country": "Chile",
+    "currency": "Chile Peso",
+    "abbreviation": "CLP",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f3.svg",
+    "country": "China",
+    "currency": "China Yuan Renminbi",
+    "abbreviation": "CNY",
+    "symbol": "¥"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f4.svg",
+    "country": "Colombia",
+    "currency": "Colombia Peso",
+    "abbreviation": "COP",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1f7.svg",
+    "country": "Costa Rica",
+    "currency": "Costa Rica Colon",
+    "abbreviation": "CRC",
+    "symbol": "₡"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f7.svg",
+    "country": "Croatia",
+    "currency": "Croatia Kuna",
+    "abbreviation": "HRK",
+    "symbol": "kn"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1fa.svg",
+    "country": "Cuba",
+    "currency": "Cuba Peso",
+    "abbreviation": "CUP",
+    "symbol": "₱"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ff.svg",
+    "country": "Czech Republic",
+    "currency": "Czech Republic Koruna",
+    "abbreviation": "CZK",
+    "symbol": "Kč"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e9-1f1f0.svg",
+    "country": "Denmark",
+    "currency": "Denmark Krone",
+    "abbreviation": "DKK",
+    "symbol": "kr"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e9-1f1f4.svg",
+    "country": "Dominican Republic",
+    "currency": "Dominican Republic Peso",
+    "abbreviation": "DOP",
+    "symbol": "RD$"
+  },
+  {
+    "currency": "East Caribbean Dollar",
+    "abbreviation": "XCD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ea-1f1ec.svg",
+    "country": "Egypt",
+    "currency": "Egypt Pound",
+    "abbreviation": "EGP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1fb.svg",
+    "country": "El Salvador",
+    "currency": "El Salvador Colon",
+    "abbreviation": "SVC",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ea-1f1ea.svg",
+    "country": "Estonia",
+    "currency": "Estonia Kroon",
+    "abbreviation": "EEK",
+    "symbol": "kr"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ea-1f1fa.svg",
+    "country": "Europe",
+    "currency": "Euro",
+    "abbreviation": "EUR",
+    "symbol": "€"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1eb-1f1f0.svg",
+    "country": "Falkland Islands",
+    "currency": "Falkland Islands (Malvinas) Pound",
+    "abbreviation": "FKP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1eb-1f1ef.svg",
+    "country": "Fiji",
+    "currency": "Fiji Dollar",
+    "abbreviation": "FJD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ed.svg",
+    "country": "Ghana",
+    "currency": "Ghana Cedis",
+    "abbreviation": "GHC",
+    "symbol": "¢"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ee.svg",
+    "country": "Gibraltar",
+    "currency": "Gibraltar Pound",
+    "abbreviation": "GIP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1f9.svg",
+    "country": "Guatemala",
+    "currency": "Guatemala Quetzal",
+    "abbreviation": "GTQ",
+    "symbol": "Q"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1ec.svg",
+    "country": "Guernsey",
+    "currency": "Guernsey Pound",
+    "abbreviation": "GGP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1fe.svg",
+    "country": "Guyana",
+    "currency": "Guyana Dollar",
+    "abbreviation": "GYD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f3.svg",
+    "country": "Honduras",
+    "currency": "Honduras Lempira",
+    "abbreviation": "HNL",
+    "symbol": "L"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ed-1f1f0.svg",
+    "country": "Hong Kong",
+    "currency": "Hong Kong Dollar",
+    "abbreviation": "HKD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ed-1f1fa.svg",
+    "country": "Hungary",
+    "currency": "Hungary Forint",
+    "abbreviation": "HUF",
+    "symbol": "Ft"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f8.svg",
+    "country": "Iceland",
+    "currency": "Iceland Krona",
+    "abbreviation": "ISK",
+    "symbol": "kr"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f3.svg",
+    "country": "India",
+    "currency": "India Rupee",
+    "abbreviation": "INR",
+    "symbol": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1e9.svg",
+    "country": "Indonesia",
+    "currency": "Indonesia Rupiah",
+    "abbreviation": "IDR",
+    "symbol": "Rp"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f7.svg",
+    "country": "Iran",
+    "currency": "Iran Rial",
+    "abbreviation": "IRR",
+    "symbol": "﷼"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f2.svg",
+    "country": "Isle of Man",
+    "currency": "Isle of Man Pound",
+    "abbreviation": "IMP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ee-1f1f1.svg",
+    "country": "Israel",
+    "currency": "Israel Shekel",
+    "abbreviation": "ILS",
+    "symbol": "₪"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f2.svg",
+    "country": "Jamaica",
+    "currency": "Jamaica Dollar",
+    "abbreviation": "JMD",
+    "symbol": "J$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ef-1f1f5.svg",
+    "country": "Japan",
+    "currency": "Japan Yen",
+    "abbreviation": "JPY",
+    "symbol": "¥"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ef-1f1ea.svg",
+    "country": "Jersey",
+    "currency": "Jersey Pound",
+    "abbreviation": "JEP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ff.svg",
+    "country": "Kazakhstan",
+    "currency": "Kazakhstan Tenge",
+    "abbreviation": "KZT",
+    "symbol": "лв"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f5.svg",
+    "country": "North Korea",
+    "currency": "Korea (North) Won",
+    "abbreviation": "KPW",
+    "symbol": "₩"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1f7.svg",
+    "country": "South Korea",
+    "currency": "Korea (South) Won",
+    "abbreviation": "KRW",
+    "symbol": "₩"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f0-1f1ec.svg",
+    "country": "Kyrgyzstan",
+    "currency": "Kyrgyzstan Som",
+    "abbreviation": "KGS",
+    "symbol": "лв"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1e6.svg",
+    "country": "Laos",
+    "currency": "Laos Kip",
+    "abbreviation": "LAK",
+    "symbol": "₭"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1fb.svg",
+    "country": "Latvia",
+    "currency": "Latvia Lat",
+    "abbreviation": "LVL",
+    "symbol": "Ls"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1e7.svg",
+    "country": "Lebanon",
+    "currency": "Lebanon Pound",
+    "abbreviation": "LBP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f7.svg",
+    "country": "Liberia",
+    "currency": "Liberia Dollar",
+    "abbreviation": "LRD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f9.svg",
+    "country": "Lithuania",
+    "currency": "Lithuania Litas",
+    "abbreviation": "LTL",
+    "symbol": "Lt"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f0.svg",
+    "country": "Macedonia",
+    "currency": "Macedonia Denar",
+    "abbreviation": "MKD",
+    "symbol": "ден"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fe.svg",
+    "country": "Malaysia",
+    "currency": "Malaysia Ringgit",
+    "abbreviation": "MYR",
+    "symbol": "RM"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f7.svg",
+    "country": "Mauritius",
+    "currency": "Mauritius Rupee",
+    "abbreviation": "MUR",
+    "symbol": "₨"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1fd.svg",
+    "country": "Mexico",
+    "currency": "Mexico Peso",
+    "abbreviation": "MXN",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1f3.svg",
+    "country": "Mongolia",
+    "currency": "Mongolia Tughrik",
+    "abbreviation": "MNT",
+    "symbol": "₮"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f2-1f1ff.svg",
+    "country": "Mozambique",
+    "currency": "Mozambique Metical",
+    "abbreviation": "MZN",
+    "symbol": "MT"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1e6.svg",
+    "country": "Namibia",
+    "currency": "Namibia Dollar",
+    "abbreviation": "NAD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f5.svg",
+    "country": "Nepal",
+    "currency": "Nepal Rupee",
+    "abbreviation": "NPR",
+    "symbol": "₨"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e7-1f1f6.svg",
+    "country": "Netherlands Antilles",
+    "currency": "Netherlands Antilles Guilder",
+    "abbreviation": "ANG",
+    "symbol": "ƒ"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ff.svg",
+    "country": "New Zealand",
+    "currency": "New Zealand Dollar",
+    "abbreviation": "NZD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ee.svg",
+    "country": "Nicaragua",
+    "currency": "Nicaragua Cordoba",
+    "abbreviation": "NIO",
+    "symbol": "C$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1ec.svg",
+    "country": "Nigeria",
+    "currency": "Nigeria Naira",
+    "abbreviation": "NGN",
+    "symbol": "₦"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f3-1f1f4.svg",
+    "country": "Norway",
+    "currency": "Norway Krone",
+    "abbreviation": "NOK",
+    "symbol": "kr"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f4-1f1f2.svg",
+    "country": "Oman",
+    "currency": "Oman Rial",
+    "abbreviation": "OMR",
+    "symbol": "﷼"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f0.svg",
+    "country": "Pakistan",
+    "currency": "Pakistan Rupee",
+    "abbreviation": "PKR",
+    "symbol": "₨"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1e6.svg",
+    "country": "Panama",
+    "currency": "Panama Balboa",
+    "abbreviation": "PAB",
+    "symbol": "B/."
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1fe.svg",
+    "country": "Paraguay",
+    "currency": "Paraguay Guarani",
+    "abbreviation": "PYG",
+    "symbol": "Gs"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1ea.svg",
+    "country": "Peru",
+    "currency": "Peru Nuevo Sol",
+    "abbreviation": "PEN",
+    "symbol": "S/."
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1ed.svg",
+    "country": "Philippines",
+    "currency": "Philippines Peso",
+    "abbreviation": "PHP",
+    "symbol": "₱"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f5-1f1f1.svg",
+    "country": "Poland",
+    "currency": "Poland Zloty",
+    "abbreviation": "PLN",
+    "symbol": "zł"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f6-1f1e6.svg",
+    "country": "Qatar",
+    "currency": "Qatar Riyal",
+    "abbreviation": "QAR",
+    "symbol": "﷼"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f7-1f1f4.svg",
+    "country": "Romania",
+    "currency": "Romania New Leu",
+    "abbreviation": "RON",
+    "symbol": "lei"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f7-1f1fa.svg",
+    "country": "Russia",
+    "currency": "Russia Ruble",
+    "abbreviation": "RUB",
+    "symbol": "руб"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ed.svg",
+    "country": "Saint Helena",
+    "currency": "Saint Helena Pound",
+    "abbreviation": "SHP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e6.svg",
+    "country": "Saudi Arabia",
+    "currency": "Saudi Arabia Riyal",
+    "abbreviation": "SAR",
+    "symbol": "﷼"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f7-1f1f8.svg",
+    "country": "Serbia",
+    "currency": "Serbia Dinar",
+    "abbreviation": "RSD",
+    "symbol": "Дин."
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e8.svg",
+    "country": "Seychelles",
+    "currency": "Seychelles Rupee",
+    "abbreviation": "SCR",
+    "symbol": "₨"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ec.svg",
+    "country": "Singapore",
+    "currency": "Singapore Dollar",
+    "abbreviation": "SGD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1e7.svg",
+    "country": "Solomon Islands",
+    "currency": "Solomon Islands Dollar",
+    "abbreviation": "SBD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f4.svg",
+    "country": "Somalia",
+    "currency": "Somalia Shilling",
+    "abbreviation": "SOS",
+    "symbol": "S"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ff-1f1e6.svg",
+    "country": "South Africa",
+    "currency": "South Africa Rand",
+    "abbreviation": "ZAR",
+    "symbol": "R"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f1-1f1f0.svg",
+    "country": "Sri Lanka",
+    "currency": "Sri Lanka Rupee",
+    "abbreviation": "LKR",
+    "symbol": "₨"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1ea.svg",
+    "country": "Sweden",
+    "currency": "Sweden Krona",
+    "abbreviation": "SEK",
+    "symbol": "kr"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1e8-1f1ed.svg",
+    "country": "Switzerland",
+    "currency": "Switzerland Franc",
+    "abbreviation": "CHF",
+    "symbol": "CHF"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1f7.svg",
+    "country": "Suriname",
+    "currency": "Suriname Dollar",
+    "abbreviation": "SRD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f8-1f1fe.svg",
+    "country": "Syria",
+    "currency": "Syria Pound",
+    "abbreviation": "SYP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1fc.svg",
+    "country": "Taiwan",
+    "currency": "Taiwan New Dollar",
+    "abbreviation": "TWD",
+    "symbol": "NT$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1ed.svg",
+    "country": "Thailand",
+    "currency": "Thailand Baht",
+    "abbreviation": "THB",
+    "symbol": "฿"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f9.svg",
+    "country": "Trinidad and Tobago",
+    "currency": "Trinidad and Tobago Dollar",
+    "abbreviation": "TTD",
+    "symbol": "TT$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f7.svg",
+    "country": "Turkiye",
+    "currency": "Turkey Lira",
+    "abbreviation": "TRY",
+    "symbol": ""
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1f7.svg",
+    "country": "Turkiye",
+    "currency": "Turkey Lira",
+    "abbreviation": "TRL",
+    "symbol": "₤"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1f9-1f1fb.svg",
+    "country": "Tuvalu",
+    "currency": "Tuvalu Dollar",
+    "abbreviation": "TVD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fa-1f1e6.svg",
+    "country": "Ukraine",
+    "currency": "Ukraine Hryvna",
+    "abbreviation": "UAH",
+    "symbol": "₴"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ec-1f1e7.svg",
+    "country": "United Kingdom",
+    "currency": "United Kingdom Pound",
+    "abbreviation": "GBP",
+    "symbol": "£"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fa-1f1f8.svg",
+    "country": "United States",
+    "currency": "United States Dollar",
+    "abbreviation": "USD",
+    "symbol": "$"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fa-1f1fe.svg",
+    "country": "Uruguay",
+    "currency": "Uruguay Peso",
+    "abbreviation": "UYU",
+    "symbol": "$U"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fa-1f1ff.svg",
+    "country": "Uzbekistan",
+    "currency": "Uzbekistan Som",
+    "abbreviation": "UZS",
+    "symbol": "лв"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fb-1f1ea.svg",
+    "country": "Venezuela",
+    "currency": "Venezuela Bolivar",
+    "abbreviation": "VEF",
+    "symbol": "Bs"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fb-1f1f3.svg",
+    "country": "Viet Nam",
+    "currency": "Viet Nam Dong",
+    "abbreviation": "VND",
+    "symbol": "₫"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1fe-1f1ea.svg",
+    "country": "Yemen",
+    "currency": "Yemen Rial",
+    "abbreviation": "YER",
+    "symbol": "﷼"
+  },
+  {
+    "flag": "https://twemoji.maxcdn.com/2/svg/1f1ff-1f1fc.svg",
+    "country": "Zimbabwe",
+    "currency": "Zimbabwe Dollar",
+    "abbreviation": "ZWD",
+    "symbol": "Z$"
+  }
+]

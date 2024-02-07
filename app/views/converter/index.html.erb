@@ -1,0 +1,52 @@
+<div class="container" data-controller="form">
+  <div class="row text-center text-light title">
+    <h1>Currency Converter</h1>
+  </div>
+  <div class="row justify-content-center mt-3">
+    <div class="col-sm-6">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="exchange-rate">
+          <p>Exchange Rate: <span id="exchange_rate"></span></p>
+          <p><small>Updated on: <%= @updated_on %></small></p>
+        </div>
+        <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+          ⚙️
+        </button>
+      </div>
+      <%= simple_form_for @user, html: { class: 'form-inline' } do |f| %>
+        <div class="row mt-3">
+          <div class="col-3">
+            <%= f.input :currency_from, collection: @currencies, selected: @user.currency_from, label: false, input_html: { data: { target: 'from' }, class: 'form-control mb-2' } %>
+          </div>
+          <div class="col-9">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="from_symbol"></span>
+              <input type="number" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-3">
+            <%= f.input :currency_to, collection: @currencies, selected: @user.currency_to, label: false, input_html: { data: { target: 'to' }, class: 'form-control mb-2' } %>
+          </div>
+          <div class="col-9">
+            <div class="input-group mb-3">
+              <span class="input-group-text" id="to_symbol"></span>
+              <input type="number" id="result" name="amount" data-target="currency-to.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)">
+            </div>
+          </div>
+        </div>
+      <% end %>
+      <div class="row mt-3">
+        <div class="col-10">
+          <button class="btn btn-warning ml-2 w-100 form-button" data-action="click->form#doTheThing click->form#shakeItUp">CONVERT</button>
+        </div>
+        <div class="col-2">
+          <button data-action="click->form#flipItUp" class="btn btn-info w-100">↕</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<%= render 'converter/partials/modal', user: @user, currencies: @currencies %>
