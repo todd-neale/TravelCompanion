@@ -19,6 +19,9 @@ export default class extends Controller {
         });
 
         this.doTheThing()
+
+        document.querySelector("#user_amount").classList.remove("form-select, is-valid")
+        document.querySelector("#result").classList.remove("form-select, is-valid")
     }
 
     doTheThing() {
