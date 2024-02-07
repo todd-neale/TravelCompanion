@@ -20,8 +20,10 @@ export default class extends Controller {
 
         this.doTheThing()
 
-        document.querySelector("#user_amount").classList.remove("form-select, is-valid")
-        document.querySelector("#result").classList.remove("form-select, is-valid")
+        document.querySelector("#user_currency_from").classList.remove("form-select")
+        document.querySelector("#user_currency_to").classList.remove("form-select")
+        document.querySelector("#user_currency_from").classList.remove("is-valid")
+        document.querySelector("#user_currency_to").classList.remove("is-valid")
     }
 
     doTheThing() {
