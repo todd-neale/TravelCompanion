@@ -55,6 +55,7 @@ gem "bootstrap", "~> 5.2"
 gem 'whenever', require: false
 gem "font-awesome-sass", "~> 6.1"
 gem 'dotenv-rails'
+gem "serviceworker-rails"
 
 
 group :development, :test do
