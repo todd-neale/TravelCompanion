@@ -21,7 +21,7 @@
           <div class="col-9">
             <div class="input-group mb-3">
               <span class="input-group-text" id="from_symbol"></span>
-              <input type="number" pattern="[0-9]*" inputmode="numeric" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <input type="number" pattern="[0-9]*" inputmode="numeric" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing">
               <span class="input-group-text">
                 <img id="fromflag" alt="flag" src="" style="width: 1.5em">
               </span>
@@ -35,7 +35,7 @@
           <div class="col-9">
             <div class="input-group mb-3">
               <span class="input-group-text" id="to_symbol"></span>
-              <input type="number" pattern="[0-9]*" inputmode="numeric" id="result" name="amount" data-target="currency-to.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)">
+              <input type="number" pattern="[0-9]*" inputmode="numeric" id="result" name="amount" data-target="currency-to.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing">
               <span class="input-group-text">
                 <img id="toflag" alt="flag" src="" style="width: 1.5em">
               </span>
