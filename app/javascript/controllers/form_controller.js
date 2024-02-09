@@ -2,28 +2,15 @@ import {Controller} from "@hotwired/stimulus"
 
 export default class extends Controller {
     static targets = ["from", "amount", "to"];
+    DATA = this.getData();
 
     connect() {
-        console.log("Connected to CurrencyForm controller");
-
-        document.querySelector("#user_currency_from").addEventListener("change", () => {
-            this.doTheThing()
-        });
-
-        document.querySelector("#user_currency_to").addEventListener("change", () => {
-            this.doTheThing()
-        });
-
-        document.querySelector("#user_amount").addEventListener("change", () => {
-            this.doTheThing()
-        });
-
-        this.doTheThing()
-
         document.querySelector("#user_currency_from").classList.remove("form-select")
         document.querySelector("#user_currency_to").classList.remove("form-select")
         document.querySelector("#user_currency_from").classList.remove("is-valid")
         document.querySelector("#user_currency_to").classList.remove("is-valid")
+
+        this.doTheThing()
     }
 
     doTheThing() {
@@ -54,12 +41,11 @@ export default class extends Controller {
 
 
     convertCurrency() {
-        const exchangeRates = this.getData();
         const from = document.querySelector("#user_currency_from").value;
         const to = document.querySelector("#user_currency_to").value;
         const amount = document.querySelector("#user_amount").value;
 
-        return exchangeRates.then(result => {
+        return this.DATA.then(result => {
             // Find the currency objects for 'from' and 'to'
             const fromCurrency = result.find(currency => currency.currency === from);
             const toCurrency = result.find(currency => currency.currency === to);
@@ -165,10 +151,6 @@ export default class extends Controller {
 
         const flag = await this.getFlag(from);
         const toFlag = await this.getFlag(to);
-
-        console.log(flag)
-
-        // render the css flag as the background of the div
 
         document.querySelector("#fromflag").src = flag;
         document.querySelector("#toflag").src = toFlag;
