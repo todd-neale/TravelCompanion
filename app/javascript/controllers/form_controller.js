@@ -16,6 +16,10 @@ export default class extends Controller {
     doTheThing() {
         this.convertCurrency();
         this.renderResultToReview();
+        this.renderTheFlagAndSymbol();
+    }
+
+    renderTheFlagAndSymbol() {
         this.renderSymbolToTheView();
         this.renderFlagToTheView();
     }
