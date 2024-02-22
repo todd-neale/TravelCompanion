@@ -22,6 +22,7 @@ export default class extends Controller {
     renderTheFlagAndSymbol() {
         this.renderSymbolToTheView();
         this.renderFlagToTheView();
+        this.doTheThing()
     }
 
     flipItUp() {
