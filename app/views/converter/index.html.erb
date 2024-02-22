@@ -21,7 +21,7 @@
           <div class="col-9">
             <div class="input-group mb-3">
               <span class="input-group-text" id="from_symbol"></span>
-              <input type="number" pattern="/^(0|[1-9]\d*)?(\.\d+)?(?<=\d)$/" inputmode="decimal" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" step="0.01" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing keyup->form#doTheThing">
+              <input type="number" inputmode="decimal" id="user_amount" name="amount" data-target="currency-form.amount" value="1" min="0" step="0.01" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing keyup->form#doTheThing">
               <span class="input-group-text">
                 <img id="fromflag" alt="flag" src="" style="width: 1.5em">
               </span>
@@ -30,12 +30,12 @@
         </div>
         <div class="row">
           <div class="col-3">
-            <%= f.input :currency_to, collection: @currencies, selected: @user.currency_to, label: false, input_html: { data: { target: 'to' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
+            <%= f.input :currency_to, collection: @currencies, selected: @user.currency_to, label: false, input_html: { data: { target: 'to', action: 'change->form#renderTheFlagAndSymbol' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
           </div>
           <div class="col-9">
             <div class="input-group mb-3">
               <span class="input-group-text" id="to_symbol"></span>
-              <input type="number" pattern="[0-9]*" inputmode="numeric" id="result" name="amount" data-target="currency-to.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing keyup->form#doTheThing">
+              <input type="number" inputmode="decimal" id="result" name="amount" data-target="currency-to.amount" value="1" min="0" class="form-control" aria-label="Amount (to the nearest dollar)" data-action="keydown->form#doTheThing keyup->form#doTheThing">
               <span class="input-group-text">
                 <img id="toflag" alt="flag" src="" style="width: 1.5em">
               </span>
