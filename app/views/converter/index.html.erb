@@ -16,7 +16,7 @@
       <%= simple_form_for @user, html: { class: 'form-inline' } do |f| %>
         <div class="row mt-3">
           <div class="col-3">
-            <%= f.input :currency_from, collection: @currencies, selected: @user.currency_from, label: false, input_html: { data: { target: 'from', action: 'change->form#renderTheFlagAndSymbol' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
+            <%= f.input :currency_from, collection: @currencies, selected: @user.currency_from, label: false, input_html: { data: { target: 'from', action: 'change->form#renderTheFlagAndSymbol click->form#doTheThing' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
           </div>
           <div class="col-9">
             <div class="input-group mb-3">
@@ -30,7 +30,7 @@
         </div>
         <div class="row">
           <div class="col-3">
-            <%= f.input :currency_to, collection: @currencies, selected: @user.currency_to, label: false, input_html: { data: { target: 'to', action: 'change->form#renderTheFlagAndSymbol' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
+            <%= f.input :currency_to, collection: @currencies, selected: @user.currency_to, label: false, input_html: { data: { target: 'to', action: 'change->form#renderTheFlagAndSymbol click->form#doTheThing' }, class: 'drop-down-control mb-2' }, wrapper_html: { class: '' } %>
           </div>
           <div class="col-9">
             <div class="input-group mb-3">
