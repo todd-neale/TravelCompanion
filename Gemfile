@@ -52,6 +52,7 @@ gem 'devise'
 gem 'httparty'
 gem 'simple_form'
 gem "bootstrap", "~> 5.2"
+gem "ruby-openai"
 gem 'whenever', require: false
 gem "font-awesome-sass", "~> 6.1"
 gem 'dotenv-rails'

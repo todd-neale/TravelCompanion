@@ -1,0 +1,28 @@
+<div class="container">
+  <div class="row text-center text-light title">
+    <h1>Travel Companion</h1>
+  </div>
+  <div class="row justify-content-center mt-3" >
+    <div class="col-sm-6">
+      <div class="d-flex justify-content-between align-items-center">
+        <div id="response">
+          <%= render 'drinking_water/partials/response' %>
+        </div>
+
+        <turbo-frame id="location-frame">
+          <%= form_tag("drinking-water/process_location", method: "post") do %>
+            <%= text_field_tag :location %>
+            <%= submit_tag "Search" %>
+          <% end %>
+        </turbo-frame>
+      </div>
+      <div id="map-container">
+        <div style="width: 100%; height: 600px;"
+             data-controller="water-map"
+             data-water-map-markers-value="<%= @location.to_json %>"
+             data-water-map-api-key-value="<%= ENV['MAPBOX_API_KEY'] %>">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

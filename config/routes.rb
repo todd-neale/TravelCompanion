@@ -9,6 +9,9 @@ Rails.application.routes.draw do
   resources :converter, only: [:index]
   resources :splitter, only: [:index]
 
+  get 'drinking-water', to: 'drinking_water#location'
+  post 'drinking-water/process_location', to: 'drinking_water#process_location'
+
   namespace :api do
     get 'get_data', to: 'currency#get_data'
   end
