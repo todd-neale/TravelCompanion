@@ -16,7 +16,7 @@ gem "pg", "~> 1.1"
 gem "puma", "~> 5.0"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+gem "importmap-rails", "~> 1.2.3"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
 gem "turbo-rails"
@@ -57,6 +57,8 @@ gem 'whenever', require: false
 gem "font-awesome-sass", "~> 6.1"
 gem 'dotenv-rails'
 gem "serviceworker-rails"
+gem "geocoder"
+
 
 
 group :development, :test do
@@ -70,9 +72,6 @@ group :development do
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
-
-  # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
-  # gem "spring"
 end
 
 group :test do
