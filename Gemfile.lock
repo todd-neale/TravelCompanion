@@ -91,6 +91,7 @@ GEM
     chronic (0.10.2)
     concurrent-ruby (1.2.3)
     crass (1.0.6)
+    csv (3.3.0)
     date (3.3.4)
     debug (1.9.1)
       irb (~> 1.10)
@@ -106,10 +107,20 @@ GEM
       dotenv (= 2.8.1)
       railties (>= 3.2)
     erubi (1.12.0)
+    event_stream_parser (1.0.0)
     execjs (2.9.1)
+    faraday (2.9.0)
+      faraday-net_http (>= 2.0, < 3.2)
+    faraday-multipart (1.0.4)
+      multipart-post (~> 2)
+    faraday-net_http (3.1.0)
+      net-http
     ffi (1.16.3)
     font-awesome-sass (6.4.2)
       sassc (~> 2.0)
+    geocoder (1.8.3)
+      base64 (>= 0.1.0)
+      csv (>= 3.0.0)
     globalid (1.2.1)
       activesupport (>= 6.1)
     httparty (0.21.0)
@@ -117,7 +128,7 @@ GEM
       multi_xml (>= 0.5.2)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
-    importmap-rails (2.0.1)
+    importmap-rails (1.2.3)
       actionpack (>= 6.0.0)
       activesupport (>= 6.0.0)
       railties (>= 6.0.0)
@@ -143,6 +154,9 @@ GEM
     minitest (5.21.2)
     msgpack (1.7.2)
     multi_xml (0.6.0)
+    multipart-post (2.4.1)
+    net-http (0.4.1)
+      uri
     net-imap (0.4.9.1)
       date
       net-protocol
@@ -208,6 +222,10 @@ GEM
       actionpack (>= 5.2)
       railties (>= 5.2)
     rexml (3.2.6)
+    ruby-openai (7.0.1)
+      event_stream_parser (>= 0.3.0, < 2.0.0)
+      faraday (>= 1)
+      faraday-multipart (>= 1)
     rubyzip (2.3.2)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -246,6 +264,7 @@ GEM
       railties (>= 6.0.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
+    uri (0.13.0)
     warden (1.2.9)
       rack (>= 2.0.9)
     web-console (4.2.1)
@@ -265,6 +284,7 @@ GEM
 
 PLATFORMS
   arm64-darwin-21
+  arm64-darwin-23
   x86_64-linux
 
 DEPENDENCIES
@@ -275,13 +295,15 @@ DEPENDENCIES
   devise
   dotenv-rails
   font-awesome-sass (~> 6.1)
+  geocoder
   httparty
-  importmap-rails
+  importmap-rails (~> 1.2.3)
   jbuilder
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.8)
   redis (~> 4.0)
+  ruby-openai
   sassc-rails
   selenium-webdriver
   serviceworker-rails
@@ -294,7 +316,7 @@ DEPENDENCIES
   whenever
 
 RUBY VERSION
-   ruby 3.1.2p20
+   ruby 3.3.2p78
 
 BUNDLED WITH
    2.4.13
