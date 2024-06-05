@@ -11,11 +11,14 @@ class DrinkingWaterController < ApplicationController
     client = OpenAI::Client.new
     chatgpt_response = client.chat(parameters: {
       model: "gpt-3.5-turbo",
-      messages: [{ role: "user", content: " Then tell me in one sentence is the tap water safe to drink in #{location}. Please answer the drinking waters safety first followed by the name of the location. Answer like: 'Yes the water is safe to drink', 'No, however there are some reports of the water is okay' 'No, the water is not safe to drink'"}]
+      messages: [{ role: "user", content: "Then tell me in one sentence is the tap water safe to drink in #{location}. Please answer the drinking waters safety first followed by the name of the location. Answer like: 'Yes the water is safe to drink', 'No, however there are some reports of the water is okay' 'No, the water is not safe to drink'. Also in a separate sentence explain why the water is or isn't safe to drink"}]
     })
 
     if chatgpt_response
       @content = chatgpt_response["choices"][0]["message"]["content"]
+      @is_it_safe = @content.split(/\W+/).first
+      @is_it_safe_text = @content.split(/\.\s+/).first
+      @justification = @content.split(/\.\s+/).last
       render turbo_stream: turbo_stream.replace("response", partial: "drinking_water/partials/response")
     else
       flash[:error] = "Error processing this location"
