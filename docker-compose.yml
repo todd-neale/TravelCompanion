@@ -1,0 +1,9 @@
+services:
+  db:
+    image: postgres:latest
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: todd
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: travel_companion_database
